@@ -1,0 +1,33 @@
+{
+  "generator-jhipster": {
+    "baseName": "sdsd",
+    "packageName": "com.cg",
+    "packageFolder": "com/cg",
+    "serverPort": "8008",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "buildTool": "maven",
+    "enableSocialSignIn": false,
+    "useSass": false,
+    "applicationType": "monolith",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "jhiPrefix": "cg",
+    "enableTranslation": false,
+    "jhipsterVersion": "4.10.2",
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "rememberMeKey": "2dfb4338550eee9dd206a16aea6d9cb89d35f9db",
+    "clientFramework": "angular1",
+    "clientPackageManager": "npm"
+  }
+}
