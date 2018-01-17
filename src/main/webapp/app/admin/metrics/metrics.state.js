@@ -9,7 +9,7 @@
 
     function stateConfig($stateProvider) {
         $stateProvider.state('cg-metrics', {
-            parent: 'admin',
+            parent: 'ops',
             url: '/metrics',
             data: {
                 authorities: ['ROLE_ADMIN'],

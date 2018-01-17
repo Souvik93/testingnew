@@ -9,7 +9,7 @@
 
     function stateConfig($stateProvider) {
         $stateProvider.state('cg-health', {
-            parent: 'admin',
+            parent: 'ops',
             url: '/health',
             data: {
                 authorities: ['ROLE_ADMIN'],

@@ -1,7 +1,7 @@
 body {
-    background: #fafafa;
+    background-color: #f9f9f9;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #333;
+    color: #4f5355;
 }
 
 /* ==========================================================================
@@ -338,5 +338,38 @@ ui bootstrap tweaks
 
 
 
+
+/* ==========================================================================
+Fix error field display
+========================================================================== */
+.form-group .help-block {
+    position: static;
+}
+
+/* ==========================================================================
+Landing page (main) styles
+========================================================================== */
+.info-bullet li{
+   display: block;
+   font-size: 20px;
+   padding: 10px;
+}.info-bullet li:before{
+ content: '\e080';
+   font-family: 'Glyphicons Halflings';
+   font-size: 16px;
+   margin-top: 4px;
+   margin-right: 5px;
+   color: #4f5355;
+   padding-top: 10px;
+}
+
+/* ==========================================================================
+Fix for Navbar Active Style
+========================================================================== */
+.navbar .navbar-nav > .active > a, .navbar .navbar-nav > .active > a:hover, .navbar .navbar-nav > .active > a:focus {
+    color: #03A9F4;
+    background-color: #f9f9f9;
+}.navbar .dropdown-menu .active > a, .navbar.navbar-default .dropdown-menu .active > a {
+    background-color: #eeeeee;    color: #03a9f4;}.navbar .dropdown-menu .active > a:hover, .navbar.navbar-default .dropdown-menu .active > a:hover, .navbar .dropdown-menu .active > a:focus, .navbar.navbar-default .dropdown-menu .active > a:focus {    color: #03A9F4;}
 
 /* jhipster-needle-css-add-main JHipster will add new css style */
